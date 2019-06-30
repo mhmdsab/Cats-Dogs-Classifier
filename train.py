@@ -8,17 +8,6 @@ test_file_directory = r'C:\Users\MSabry\Desktop\cats and dogs classifier\dataset
 x_train,x_cv,y_train,y_cv = prepare_data(train_file_directory)
 x_test,y_test = prepare_test_data(test_file_directory)
         
-'''
-our target is to have a neural network of 3 conv layers followed by 2 fully conneced layers followed by 
-a softmax output
-
-images are inputed with size 100 * 100
-'''
-
-#data = cv2.imread('C:/Users/User/Desktop/original/581028_3804423466887_1552200814_n.jpg',1)
-#data = cv2.resize(data,(128,128))
-#data = tf.reshape(data,[-1,128,128,3])
-#data = tf.cast(data,tf.float32)
 
 tf.reset_default_graph()
 filter_1_size = 3
