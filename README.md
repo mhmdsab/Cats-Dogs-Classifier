@@ -1,1 +1,1 @@
-# Cats-Dogs Classifier
+# Cats and Dogs Classifier
